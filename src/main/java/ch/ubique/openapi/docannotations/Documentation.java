@@ -5,7 +5,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.annotation.ElementType;
 @Target({ElementType.METHOD, ElementType.TYPE, ElementType.TYPE_PARAMETER, ElementType.PARAMETER, ElementType.FIELD, ElementType.TYPE_USE})
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 public @interface Documentation {
     String description() default "";
     String example() default "";
