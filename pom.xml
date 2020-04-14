@@ -28,7 +28,7 @@
 
 	<distributionManagement>
 		<repository>
-		<id>github-annotation</id>
+		<id>github</id>
 		<name>GitHub Packages</name>
 		<url>https://maven.pkg.github.com/Ubique-OSS/springboot-swagger3-annotations</url>
 		</repository>
