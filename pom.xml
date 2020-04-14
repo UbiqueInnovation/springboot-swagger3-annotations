@@ -5,7 +5,7 @@
 	
 	<groupId>ch.ubique.openapi</groupId>
 	<artifactId>doc-annotations</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<name>doc-annotations</name>
 	<description>Annotations for documentation of API</description>
 
