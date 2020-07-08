@@ -23,9 +23,10 @@ jobs:
       uses: whelk-io/maven-settings-xml-action@v4
       with:
         servers: '[{"id": "bintray-ubique-oss-springboot-swagger3", "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.APITOKEN}}"}]'
-    - name: Deploy
+    - name: Update Version
       run: |
-        mvn clean install -DpluginVersion=$TAG
+        mvn versions:set -DnewVersion=$TAG
+        mvn versions:commit
     - name: Deploy
       run: |
         mvn deploy -DpluginVersion=$TAG 

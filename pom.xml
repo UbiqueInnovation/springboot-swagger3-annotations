@@ -9,7 +9,7 @@
 	
 	<groupId>ch.ubique.openapi</groupId>
 	<artifactId>doc-annotations</artifactId>
-	<version>${pluginVersion}</version>
+	<version>1.0.0</version>
 	<name>doc-annotations</name>
 	<description>Annotations for documentation of API</description>
 
