@@ -29,4 +29,4 @@ jobs:
         mvn versions:commit
     - name: Deploy
       run: |
-        mvn deploy -DpluginVersion=$TAG 
+        mvn deploy
