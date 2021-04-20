@@ -110,12 +110,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<distributionManagement>
-		<repository>
-			<id>bintray-ubique-oss-springboot-swagger3</id>
-			<name>ubique-oss-springboot-swagger3-annotations</name>
-			<url>https://api.bintray.com/maven/ubique-oss/springboot-swagger3/springboot-swagger3-annotations/;publish=1</url>
-		</repository>
-	</distributionManagement>
 </project>
